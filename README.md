@@ -1,89 +1,65 @@
-# Wordpress
+# Página de Noticias de Fútbol - WordPress
 
-Creació de la meva pàgina de notícies de futbol en WordPress
+Este repositorio documenta las tareas realizadas para crear una página de noticias de fútbol utilizando WordPress, incluyendo la configuración de temas, plugins, y funcionalidades personalizadas.
 
-Introducció
+## Descripción del Proyecto
 
-Per aquest projecte, he creat una pàgina de notícies de futbol utilitzant WordPress. L'objectiu era construir un blog senzill però funcional, amb diverses entrades sobre la història del futbol i notícies actuals. A més, he afegit algunes funcionalitats extra com categories, permisos d’usuaris i un sistema de cerca.
+La página está dedicada a cubrir noticias sobre fútbol, con secciones que incluyen:
+- Últimas noticias
+- Barça
+- Blog (incluye "Quienes somos", "Preguntas frecuentes" y "Deportes originales y curiosos")
 
-1. Configuració inicial
+Además, se incluyen características adicionales como un menú de navegación, contenido multimedia (imágenes y videos), y un diseño responsivo.
 
-Primerament, vaig instal·lar WordPress en un servidor d’allotjament gratuït. Després, vaig seleccionar un tema adequat que encaixés amb la temàtica de futbol i el vaig personalitzar canviant colors i tipografies.
+## Lista de Tareas Realizadas
 
-2. Creació del blog
+### 1. Configuración Inicial de WordPress
+- Instalación de WordPress en un servidor de hosting.
+- Instalación de un tema relacionado con noticias deportivas.
+- Personalización del tema para añadir elementos como el logo, colores y tipografías.
 
-Vaig començar per afegir algunes imatges relacionades amb el futbol per fer la pàgina més atractiva visualment. A continuació, vaig escriure diverses entrades per al blog:
+### 2. Creación de la Página Principal
+- Uso del plugin **Elementor** para construir una página principal con un banner de noticias.
+- Añadido un **slider** de imágenes con las noticias más recientes.
+- Sección de bloques con categorías como:
+  - **Últimas Noticias**: Noticias actualizadas del mundo del fútbol.
+  - **Barça**: Noticias exclusivas y artículos sobre el F.C. Barcelona.
+  - **Blog**:
+    - **Quienes somos**: Descripción del equipo detrás de la página.
+    - **Preguntas frecuentes**: Sección informativa sobre las preguntas más comunes.
+    - **Deportes originales y curiosos**: Artículos sobre deportes poco convencionales.
 
-Entrades creades
+### 3. Menú de Navegación
+- Configuración de un menú de navegación personalizado con enlaces a:
+  - `Home`
+  - `Barça`
+  - `Blog` (con subcategorías: Quienes somos, Preguntas frecuentes, Deportes originales y curiosos).
 
-La història del futbol
+### 4. Plugins Utilizados
+- **Elementor**: Para la construcción de páginas mediante drag-and-drop.
+- **Yoast SEO**: Para la optimización SEO de la página.
+- **Contact Form 7**: Para la creación de formularios de contacto en la sección "Contacte".
+- **Polylang**: Para habilitar el soporte multi-idioma en la página.
 
-Aquesta entrada parla sobre l’origen i l’evolució del futbol al llarg dels anys.
+### 5. Gestión de Contenidos
+- Creación de **entradas de blog** con imágenes relacionadas y etiquetadas en categorías:
+  - Noticias de fútbol.
+  - Historia del fútbol.
+  - Jugadores destacados.
+- Personalización de cada entrada con la estructura adecuada utilizando modificadores HTML (negrita, encabezados).
 
-Vaig afegir una imatge històrica d’un partit de futbol antic.
+### 6. Configuración de Permisos de Usuarios
+- Creación de roles de usuarios:
+  - **Administrador**: Gestión total del sitio web.
+  - **Editor**: Capacidad para editar y publicar entradas.
+  - **Colaborador**: Puede crear entradas pero no publicarlas.
+  - **Suscriptor**: Solo puede visualizar el contenido.
 
-Vaig utilitzar modificadors HTML per ressaltar parts importants del text.
+### 7. Diseño Responsivo
+- Ajuste de diseño para asegurar la **compatibilidad móvil** y en tabletas.
+- Uso de un **constructor visual** para asegurarse de que los elementos sean responsivos.
 
-Notícies actuals del futbol
-
-Aquí vaig recopilar algunes de les notícies més recents sobre el món del futbol.
-
-Vaig afegir una imatge d’un partit recent.
-
-Aquesta entrada té unes normes de publicació, de manera que només es publica a partir d’una certa data.
-
-Els millors jugadors de la història
-
-Una llista amb alguns dels millors jugadors de futbol de tots els temps.
-
-Vaig afegir diferents opcions de visualització per als usuaris.
-
-3. Categories i subcategories
-
-Vaig organitzar el blog en dues categories principals:
-
-Història del futbol (conté l’entrada sobre la història i la dels millors jugadors)
-
-Notícies recents (conté l’entrada de les notícies actuals)
-
-4. Configuració d’usuaris i permisos
-
-Vaig crear diferents tipus d’usuaris per gestionar el contingut del blog:
-
-Administrador: Pot fer tots els canvis.
-
-Editor: Pot editar i publicar entrades.
-
-Col·laborador: Pot escriure entrades però no les pot publicar directament.
-
-Suscriptor: Només pot llegir el contingut.
-
-També vaig crear diversos usuaris de prova per assegurar-me que els permisos funcionessin correctament.
-
-5. Creació del portal
-
-Per estructurar millor la pàgina, vaig afegir un menú amb enllaços a les diferents seccions:
-
-Portada
-
-Blog
-
-Categories
-
-Contacte
-
-També vaig afegir una pàgina de contacte amb un formulari mitjançant un plugin de contactes.
-
-6. Funcionalitats extres
-
-Per millorar la pàgina, vaig afegir:
-
-Un mapa de Google Maps per mostrar estadis famosos.
-
-Un sistema de publicitat amb un plugin de WordPress.
-
-L’extensió Polylang per oferir el portal en diferents idiomes.
-
-Widgets per mostrar les últimes notícies i els articles més llegits.
-
-Edició del CSS per modificar el disseny del tema i fer-lo més personalitzat.
+### 8. Funcionalidades
+- **Google Maps**: Se añadió un mapa interactivo que muestra estadios famosos.
+- **Publicidades**: Configuración de un sistema de publicidad usando un plugin dedicado.
+- **Widgets**: Añadido un widget que muestra las noticias más leídas en la barra lateral.
